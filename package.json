@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Sullyryan0319/Music-Library-Back/issues"
   },
-  "homepage": "https://github.com/Sullyryan0319/Music-Library-Back#readme"
+  "homepage": "https://github.com/Sullyryan0319/Music-Library-Back#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
