@@ -1,0 +1,17 @@
+exports.validateSong = (req, res, next) => {
+    const data = req.body;
+    if(
+    (data.hasOwnProperty('id') && typeof(data.name) === 'string') &&
+    (data.hasOwnProperty('title') && typeof(data.title) === 'string') &&
+    (data.hasOwnProperty('album') && typeof(data.album) === 'string') &&
+    (data.hasOwnProperty('artist') && typeof(data.artist) === 'string') &&
+    (data.hasOwnProperty('genre') && typeof(data.genre) === 'string') &&
+    (data.hasOwnProperty('releaseDate') && typeof(data.releaseDate) === Date) 
+
+
+    ){
+    return next();
+    }else{
+    return res.status(400).send({error: 'Missing required properties.'});
+    }
+   }

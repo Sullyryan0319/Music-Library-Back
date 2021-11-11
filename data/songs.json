@@ -190,5 +190,19 @@
     "artist": "The Postal Service",
     "genre": "Alternative Indie",
     "releaseDate": "02/18/2003"
+  },
+  {
+    "id": 25,
+    "album": "Natchez",
+    "artist": "Bishop Gunn",
+    "genre": "Modern Rock",
+    "releaseDate": "05/03/2018"
+  },
+  {
+    "id": 26,
+    "album": "Natchez",
+    "artist": "Bishop Gunn",
+    "genre": "Modern Rock",
+    "releaseDate": "05/03/2018"
   }
 ]
